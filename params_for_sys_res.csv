@@ -1,0 +1,5 @@
+uptime,<18w4h
+version,<=6.45.8
+free-memory,<70MiB
+cpu-load,>80
+free-hdd-space,<150MiB
