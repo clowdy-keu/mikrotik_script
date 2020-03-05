@@ -1,9 +1,17 @@
 python mikrotik_script.py user4testing@81.176.228.97 system resource print -p KMipM87rLSbV
+python mikrotik_script.py user4testing@81.176.228.97 system resource print -p KMipM87rLSbV -t 15
 python mikrotik_script.py user4testing@81.176.228.97 system resource print
 python mikrotik_script.py 81.176.228.97 system resource print
 python mikrotik_script.py 81.176.228.97 system resource print -p <пароль админа>
 python mikrotik_script.py 81.176.228.97 log print -p KMipM87rLSbV
 python mikrotik_script.py 81.176.228.97 export compact -p KMipM87rLSbV
+
+Краткие варианты команд
+
+python mikrotik_script.py user4testing@81.176.228.97 uptime -p KMipM87rLSbV
+python mikrotik_script.py user4testing@81.176.228.97 export
+python mikrotik_script.py user4testing@81.176.228.97 log -p KMipM87rLSbV
+
 
 Параметры для system resource print меняются в params_for_sys_res.csv
 

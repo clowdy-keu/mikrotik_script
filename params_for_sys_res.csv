@@ -1,5 +1,6 @@
-uptime,<18w4h
-version,<=6.45.8
-free-memory,<70MiB
-cpu-load,>80
-free-hdd-space,<150MiB
+parameter,min,max
+uptime,22w4h,
+version,6.45.8,
+free-memory,10TiB,
+cpu-load,,80
+free-hdd-space,1500000000MiB,
